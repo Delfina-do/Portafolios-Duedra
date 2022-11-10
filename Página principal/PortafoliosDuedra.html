@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    PortafoliosDuedra
+  </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script lottie-player src="https://lottie.host/fb7e76f1-6249-4d37-bddf-44dbf57e0647/6xYG6pf7z9.json"
+    background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet" />
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+  <script language="javascript" type="text/javascript">
+    function enviar(pagina) {
+      document.PortafoliosDuedra.action = pagina
+      document.PortafoliosDuedra.submit();
+    }
+  </script>
+  <style>
+    .html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #65545f;
+    }
+
+    #pagina {
+      position: relative;
+      min-height: 100%;
+    }
+
+
+
+    #col1 {
+      background: #65545f;
+      margin-top: 0px;
+      padding: 31px;
+      opacity: 90%;
+    }
+
+    .encabezado {
+      color: rgb(81, 80, 80);
+      font-family: "Raleway", sans-serif;
+      font-size: 70px;
+      background: beige;
+      padding: 10px;
+      font-weight: bolder;
+      text-align: center;
+      text-shadow: #877280;
+      border-radius: 10px;
+    }
+
+    .encabezado2 {
+      background-color: beige;
+      font-family: "Raleway", sans-serif;
+      color: rgb(81, 80, 80);
+      font-weight: bold;
+      margin-top: 0px;
+      text-align: center;
+      padding: 5px;
+      border-radius: 10px;
+    }
+
+    .fotopersonal {
+      height: 190px;
+      width: 140px;
+    }
+
+    #col2 {
+      text-align: center;
+      background-color: beige;
+      padding: 19.5px;
+      opacity: 90%;
+    }
+
+    #col4 {
+      background-color: beige;
+      font-size: 18px;
+      font-family: "Raleway", sans-serif;
+      padding: 8.5px;
+      border-left: #65545f 5px solid;
+
+    }
+
+    .navbar {
+      margin-bottom: 3px;
+    }
+
+    #col6 {
+      text-align: center;
+      font-family: "Raleway", sans-serif;
+      background-color: #65545f;
+      margin-top: 70px;
+      border: #fbc572;
+      margin-right: 10px;
+      margin-left: 5px;
+      width: 520px;
+      border-right: beige 5px solid;
+    }
+
+    #col5 {
+      text-align: center;
+      font-family: "Raleway", sans-serif;
+      width: 700px;
+      border-left: 3px;
+      margin-top: 70px;
+      margin-left: 50px;
+      margin-right: 20px;
+      border-left: beige 5px solid;
+    }
+
+    .h1titulo {
+      text-decoration: underline;
+      margin-top: 20px;
+      color: #65545f;
+      background-color: beige;
+      padding: 20px;
+
+    }
+
+    .tituloinfo {
+      font-weight: bolder;
+      margin-top: 2px;
+      color: #65545f;
+    }
+
+    .tituloinfo2 {
+      background-color: #bb9eb1;
+      padding: 10px;
+      font-weight: bolder;
+      color: beige;
+    }
+
+    .info {
+      font-size: 20px;
+      color: beige;
+      font-weight: bold;
+    }
+
+    .info2 {
+      color: beige;
+      background-color: #fbc572;
+      padding: 10px;
+      text-align: justify;
+      font-size: 17px;
+      font-weight: bolder;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .boton1 {
+      background-color: #bb9eb1;
+      box-shadow: #bb9eb1;
+      border: none;
+      color: beige;
+      padding: 3px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 250px;
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 18px;
+    }
+
+    .boton1:hover {
+      background-color: #a28698;
+    }
+
+    #col3 {
+      text-align: center;
+      background-color: beige;
+      padding: 3.5px;
+
+    }
+
+    .animación1 {
+      border: none;
+      height: 350px;
+
+    }
+
+    .animación2 {
+      border: none;
+      width: 600px;
+
+    }
+
+    .animación3 {
+      border: none;
+      width: 600px;
+    }
+
+    .animación4 {
+      border: none;
+      width: 500px;
+      margin-bottom: 0;
+      margin-left: 0;
+
+    }
+
+    #colrelleno1 {
+      background-color: #fbc572;
+      margin-top: 15px;
+      height: 685px;
+      width: 120px;
+      margin-left: 25px;
+    }
+
+    #colrelleno2 {
+      background-color: #fbc572;
+      margin-top: 15px;
+      height: 685px;
+      width: 120px;
+    }
+
+    .infopersonal {
+      text-align: center;
+      background-color: #847880;
+      color: beige;
+      padding: 15px;
+      font-family: "Raleway" sans-serif;
+    }
+
+    .descripciónpersonal {
+      color: white;
+      font-size: 20px;
+      padding: 15px;
+      font-weight: bold;
+      font-family: "Raleway" sans-serif;
+      word-spacing: 8px;
+      text-align: justify;
+    }
+
+    #col7 {
+      margin-left: 50px;
+      margin-top: 15px;
+      height: 700px;
+      border-left: beige 5px solid;
+      border-right: beige 5px solid;
+    }
+
+    #col8 {
+
+      background-color: #fc9b0c;
+      padding: 20px;
+      text-align: center;
+      margin-top: 15px;
+
+    }
+
+    #col9 {
+      background-color: #fbc572;
+      padding: 20px;
+      text-align: center;
+      
+    }
+
+
+    .yo {
+      height: 400px;
+      margin-top: 10px;
+      margin-left: 10px;
+      opacity: 85%;
+
+    }
+
+    #myCarousel {
+      width: 595px;
+    }
+    .item {
+      padding: 30px;
+    }
+
+    .comentario {
+      font-style: italic;
+      font-family: "Raleway" sans-serif;
+    }
+
+    .comentado {
+      font-weight: bold;
+      font-family: "Raleway" sans-serif;
+    }
+
+    .pie {
+      text-align: center;
+      background-color: #65545f;
+      font-family: "Raleway" sans-serif;
+      font-size: 15px;
+      color: beige;
+      margin-top: 30px;
+      padding: 10px;
+      opacity: 80%;
+    }
+
+    .copy {
+      text-align: center;
+      font-family: "Raleway" sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      color: black;
+    }
+
+    .tooltip {
+      font-style: italic;
+      font-size: 15px;
+      font-family: "Raleway" sans-serif;
+    }
+
+    .botonpaganterior {
+      font-family: "Raleway" sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: #fc9b0c;
+      color: beige;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      width: 500px;
+
+
+    }
+
+    .botonpaganterior:hover {
+      background-color: #fbc572;
+    }
+
+    .botonpagsiguiente {
+      font-family: "Raleway" sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: #fc9b0c;
+      color: beige;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      width: 500px;
+
+
+
+    }
+
+    .botonpagsiguiente:hover {
+      background-color: #fbc572;
+    }
+
+    #colbotones {
+      margin-top: 80px;
+      padding: 25px;
+      text-align: center;
+      opacity: 70%;
+
+    }
+
+    /*Esto permite que el menu sea responsive y quede inserto en una barra de navegación*/
+    * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+    }
+
+    nav {
+      background: #65545f;
+      height: 80px;
+      width: 100%;
+    }
+
+    .enlace {
+      position: absolute;
+      padding: 20px 50px;
+    }
+
+    .logo {
+      height: 100px;
+      width: 140px;
+      margin-top: 0%;
+    }
+
+    nav ul {
+      float: right;
+      margin-right: 20px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+    }
+
+    nav ul li a {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+
+    li a.active,
+    li a:hover {
+      background: #bb9eb1;
+      transition: 0.5s;
+    }
+
+    .navegador {
+      font-size: 30px;
+      color: #fff;
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+      display: none;
+    }
+
+    #minav {
+      display: none;
+    }
+
+    section {
+      background: url(fondo.jpg) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: calc(100vh - 80px);
+    }
+
+    @media (max-width: 952px) {
+      .enlace {
+        padding-left: 20px;
+      }
+
+      nav ul li a {
+        font-size: 16px;
+      }
+    }
+
+    @media (max-width: 858px) {
+      .navegador {
+        display: block;
+      }
+
+      ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #a28698;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+      }
+
+      nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+      }
+
+      nav ul li a {
+        font-size: 20px;
+      }
+
+      li a:hover,
+      li a.active {
+        background: none;
+        color: #fc9b0c;
+      }
+
+      #minav:checked~ul {
+        left: 0;
+      }
+    }
+
+    #col9 {
+      margin-top: 15px;
+    }
+
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      width: 200%;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px #a28698;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a {
+      display: block;
+      color: #65545f;
+      font-weight: bolder;
+      font-size: 20px;
+      padding: 3px;
+      text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+      color: #65545f;
+      background-color: #bb9eb1;
+    }
+
+    .botondropdown {
+      background-color: #65545f;
+      border: none;
+      color: white;
+      font-weight: bolder;
+      font-family: 'Raleway' sans-serif;
+      margin-left: 3px;
+    }
+
+    .linea {
+      border-top: 5px solid beige;
+      height: 2px;
+      padding: 0;
+      margin: 50px;
+    }
+
+    .pie {
+      text-align: center;
+      background-color: beige;
+      font-family: "Raleway" sans-serif;
+      font-size: 15px;
+      color: #65545f;
+      margin-top: 30px;
+      padding: 10px;
+      opacity: 80%;
+      width: 100vw;
+    }
+
+    .copy {
+      text-align: center;
+      font-family: "Raleway" sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      color: black;
+    }
+
+    #col11 {
+      margin-top: 15px;
+      margin-left: 15px;
+      margin-bottom: 15px;
+      width: 563px;
+      height: 700px;
+      text-align: center;
+      color: beige;
+      border-right: beige 5px solid;
+      margin-right: 20px;
+    }
+
+    #myCarousel {
+      margin-bottom: 15px;
+      width: 500px;
+      height: 150px;
+    }
+
+    .carousel-indicators {
+      top: 100%;
+    }
+
+    .item {
+      padding: 30px;
+    }
+
+    .comentario {
+      font-style: italic;
+      font-family: "Raleway" sans-serif;
+    }
+
+    .comentado {
+      font-weight: bold;
+      font-family: "Raleway" sans-serif;
+    }
+    .b1{
+      font-family: "Raleway" sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: #fbc572;
+      color: beige;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      width: 500px;
+    }
+    .b1:hover{
+      background-color: #fc9b0c;
+    }
+    .b2{
+      font-family: "Raleway" sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: #fc9b0c;
+      color: beige;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      width: 500px;
+    }
+    .b2:hover{
+      background-color: #fbc572;
+    }
+
+ 
+  </style>
+</head>
+
+<body>
+  <div class="conteiner">
+    <!--Abre conteiner-->
+    <div class="col-md-10" id="col1">
+      <!--Columna 1-->
+      <h1 class="encabezado">DELFINA DUEDRA ORTIZ</h1>
+      <h4 class="encabezado2">Lic. Comunicación Social</h4>
+    </div>
+    <div class="col-md-2" id="col2">
+      <!--Columna 2 al lado de la 1-->
+      <img class="fotopersonal" src="fotopersonal.jpeg" alt="" />
+    </div>
+    <div class="row">
+      <div class="col-md-3" id="col3">
+        <!--Columna 3 debajo-->
+        <img src="logodelfi.png" alt="logo" class="logo" />
+      </div>
+      <div class="col-md-9" id="col4">
+        <!--Columna 4 al lado de la 3 (contiene navegador)-->
+        <nav>
+          <input type="checkbox" id="minav" />
+          <label for="minav" class="navegador">
+            <i class="fas fa-bars"></i>
+          </label>
+          <ul>
+            <li><a class="active" href="http://127.0.0.1:5500/P%C3%A1gina%20principal/PortafoliosDuedra.html#">INICIO</a></li>
+
+
+            <div class="dropdown">
+              <button class="botondropdown">CONTACTO</button>
+              <div class="dropdown-content">
+                <a href="https://www.instagram.com/delfi.duedra/" style="color: white;">INSTAGRAM</a>
+                <a href="https://wa.link/jp6q4k" style="color: white;">WhatsApp</a>
+                <a href="https://outlook.live.com/mail/0/" style="color: white;">MAIL</a>
+
+              </div>
+            </div>
+
+
+
+            <li>
+              <a href="http://127.0.0.1:5500/Proyectos%20Nacionales/ProyectosNac.html" data-toggle="tooltip"
+                title="Más información">PROYECTOS NACIONALES</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/Proyectos%20Internac/Proyectos%20Internac.html" data-toggle="tooltip"
+                title="Más información">PROYECTOS INTERNACIONALES</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7" id="col5">
+        <!--Columna 5 y 6 debajo-->
+        <h1 class="h1titulo">Formación y experiencia laboral</h1>
+        <br />
+        <h3 class="tituloinfo2">Marzo 2019 - Actualidad 2022</h3>
+        <p class="info2">
+          Universidad Nacional de La Pampa, Santa Rosa, La Pampa, Argentina.
+          Lic. en Comunicación Social. Orientación en Comunicación
+          Institucional.
+        </p>
+        <br />
+        <h3 class="tituloinfo2">Agosto 2022 - Actualidad 2022</h3>
+        <p class="info2">
+          Universidad de San Buenaventura. Ingeniería Multimedia.
+        </p>
+        <br />
+        <h3 class="tituloinfo2">2012-2018</h3>
+        <p class="info2">
+          Instituto José Manuel Estrada. Pellegrini, Buenos Aires, Argentina.
+          Bachiller con orientación en Ciencias Sociales.
+        </p>
+        <br />
+        <h3 class="tituloinfo2">Diciembre 2019 - Actualidad 2022</h3>
+        <p style="font-size:25px; font-family:'Raleway'; background-color: #fc9b0c; padding: 10px; color: beige;">
+          Trabajo en organización y coordinación de eventos.
+          <br>
+        </p>
+        <p
+          style="font-size: 30px;font-family: 'Raleway';font-weight: bolder; background-color: #fc9b0c; color: beige; padding: 10px;">
+          Referente: Paula Torres Eventos <a href="https://www.instagram.com/paula_torres_eventos/"><i
+              class='fab fa-instagram' style='font-size: 30px; text-decoration: none; color: white;'></i></a>
+        </p>
+        <h3 class="tituloinfo2">Marzo 2022 - Actualidad 2022</h3>
+        <p style="font-size:25px; font-family:'Raleway'; padding: 10px; background-color: #fc9b0c; color: beige;">
+          Genero el contenido de Instagram para pequeña empresa llamada LEGUME.
+        </p>
+        <p
+          style="font-size:30px; font-family: 'Raleway'; font-weight:bolder; background-color: #fc9b0c; padding: 10px; color: beige;">
+          Referente: LEGUME <a href="https://www.instagram.com/legumepetfood/"><i class='fab fa-instagram'
+              style='font-size:30px; text-decoration: none; color: white;'></i></a>
+        </p>
+        <!--Código de animación LottieFiles-->
+        <iframe class="animación2"
+          src="https://lottie.host/?file=324fc887-c3a4-421a-8c14-20296a1f64dd/pG8Li7Hzr7.json"></iframe>
+        <br />
+      </div>
+      <div class="col-md-5" id="col6">
+        <!--columna 6 al lado de la 5-->
+        <h1 class="h1titulo">¡Contactame!</h1>
+        <br />
+        <h3 class="tituloinfo">MAIL:</h3>
+        <p class="info">delfinaortiz17@hotmail.com</p>
+        <form action="https://outlook.live.com/mail/0/">
+          <button class="boton1">Enviar correo <i class="fas fa-at"></i></button>
+        </form>
+        <h3 class="tituloinfo">CEL:</h3>
+        <p class="info">+54 2954217391</p>
+        <form action="https://wa.link/jp6q4k">
+          <button class="boton1" data-toggle="tooltip" title="Enviar mensaje">
+            WhatsApp <i class="fab fa-whatsapp"></i>
+          </button>
+        </form>
+        <h3 class="tituloinfo">Instagram:</h3>
+        <p class="info">delfi.duedra</p>
+        <form action="https://www.instagram.com/delfi.duedra/">
+          <button class="boton1" data-toggle="tooltip" title="¡Seguime! :)">
+            Instagram <i class="fab fa-instagram"></i>
+          </button>
+        </form>
+        <!--Código de animación LottieFiles-->
+        <br>
+        <br>
+        <iframe class="animación1"
+          src="https://lottie.host/?file=fb7e76f1-6249-4d37-bddf-44dbf57e0647/6xYG6pf7z9.json"></iframe>
+        <br />
+        <br />
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <iframe class="animación4"
+          src="https://lottie.host/?file=324fc887-c3a4-421a-8c14-20296a1f64dd/pG8Li7Hzr7.json"></iframe>
+      </div>
+    </div>
+
+    <!--Utilice LottieFiles para trabajar e importar animaciones-->
+    <div class="row">
+      <div class="col-md-6" id="col7">
+        <!--Columna 7 y 8 debajo-->
+        <h1 class="infopersonal">Información personal</h1>
+        <h4 class="descripciónpersonal">
+          Elegí esta carrera porque me centro en la retroalimentación de ideas y
+          saberes.
+          <br />
+          <br />
+          <br />
+          Considero que la puesta en escena coparticipativa de actores sociales,
+          es fundamental para un aumento en el desempeño de instituciones,
+          empresas o cualquier área que lo desee.
+          <br />
+          <br />
+          <br />
+          Los esquemas comunicacionales brindan apoyo y sostén a los espacios
+          débiles en este aspecto. Por ende, mis habilidades están enfocadas en
+          el fortalecimiento de dichas áreas, específicamente, en instituciones
+          o empresas.
+        </h4>
+        <iframe src="https://lottie.host/?file=a5f02aec-3184-4275-8153-4b1ffd5dc815/6vObm4hijj.json"
+          class="animación3"></iframe>
+      </div>
+      <div class="col-md-5" id="col11">
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <h4 class="comentario">
+                La comunicación logra que toda relación humana sea efectiva para
+                distintos fines.
+                <br />
+                <br /><span class="comentado">Delfina Duedra</span>
+              </h4>
+            </div>
+            <div class="item">
+              <h4 class="comentario">
+                Fomentar ámbitos coparticipativos para mejorar resultados de
+                trabajo.
+                <br />
+                <br /><span class="comentado">Delfina Duedra</span>
+              </h4>
+            </div>
+            <div class="item">
+              <h4 class="comentario">
+                “Dime y lo olvido, enséñame y lo recuerdo, involúcrame y lo
+                aprendo”.
+                <br />
+                <br />
+                <span class="comentado">Benjamin Franklin</span>
+              </h4>
+            </div>
+            <div class="item">
+              <h4 class="comentario">
+                “Entre dos explicaciones, elige la más clara; entre dos formas,
+                la más sencilla; entre dos expresiones, la más breve”
+                <br />
+                <br />
+                <span class="comentado">Eugenio D’Ors</span>
+              </h4>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Regresar</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">siguiente</span>
+            </a>
+          </div>
+        </div>
+        <img src="USB.jpeg" height="500px" style="margin-top:15px;" alt="">
+      </div>
+    </div>
+  </div>
+  <!--Cierra conteiner-->
+
+
+
+  <div class="row">
+    <div class="col-md-6" id="col8">
+      <button class="b1" onclick="location.href='http://127.0.0.1:5500/Proyectos%20Nacionales/ProyectosNac.html'"
+        >PROYECTOS NACIONALES</button>
+      <form name="PortafoliosDuedra" action="http://127.0.0.1:5500/Proyectos%20Nacionales/ProyectosNac.html"
+        method="post">
+      </form>
+    </div>
+    <div class="col-md-6" id="col9">
+      <button class="b2" onclick="location.href='http://127.0.0.1:5500/Proyectos%20Internac/Proyectos%20Internac.html'"
+        >PROYECTOS INTERNACIONALES</button>
+      <form name="PortafoliosDuedra" action="http://127.0.0.1:5500/Proyectos%20Internac/Proyectos%20Internac.html"
+        method="post">
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p class="pie">Derechos reservados a Delfina Duedra Ortiz</p>
+    <p class="copy">&copy;2022</p>
+  </footer>
+
+
+</body>
+
+</html>
